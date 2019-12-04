@@ -1,0 +1,36 @@
+body{
+    background: rgba(226, 85, 85,.25);
+    /* background: url(file:///Users/marina/Documents/Photo/th.jpeg) */
+}
+main{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+  height: 200px;
+  border: 1px dotted black;
+  float: left;
+  margin: 0 40px 20px 20px;
+  border-radius: 5px 50px;
+}
+ 
+h3 {
+    font-style: italic;
+}
+ .title-block{
+    text-align: center;
+     
+ }
+
+a {
+    color: rgb(26, 26, 150);
+}
+
+.Education{
+    clear: both;
+}
+
+.Contacts {
+    padding-top: 20px;
+}

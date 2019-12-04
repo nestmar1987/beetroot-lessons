@@ -1,0 +1,121 @@
+.list-cities {
+  text-align: center;
+  list-style: none;
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 0;
+  width: 700px;
+  margin:0 auto; 
+}
+
+span{
+  color: rgba(255,255,255,.60);
+  font-size: 16px;
+  position: relative; top:25px;
+  text-align: center;
+}
+li{
+  padding: 10px auto;
+  line-height: 70px;
+  position: relative;
+ 
+}
+.list-cities:hover li:not(:hover){
+  opacity: 0.5;
+}
+
+i{
+ display: inline-block;
+ line-height: 50px;
+ font-size: 16px;
+}
+
+h1{
+  font-size: 24px;
+  margin: 0 auto;
+  width: 700px;
+  margin-top: 20px;
+  padding: 10px;
+}
+p{
+  font-size: 18px;
+  margin: 0 auto;
+  width: 700px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.list-cities li {
+  display: inline-block;
+  font-size: 18px;
+  height: 100px;
+  white-space: normal;
+  word-break: normal;
+
+}
+
+.middle{
+  width: 50%;
+  border: 2px solid white;
+}
+
+.big{
+  width: 100%;
+  border: 2px solid white;
+}
+
+.small{
+  width: 25%;
+  border: 2px solid white;
+}
+
+.one {
+  background-color: #3399cc;
+}
+
+.two {
+  background-color:#3cc;
+}
+
+.three {
+  background-color:#969;
+}
+
+.four {
+  background-color:#c24747;
+}
+
+.five {
+  background-color:#e2674a;
+}
+
+.six {
+  background-color:#ffcc66;
+}
+.seven {
+  background-color:#9c9;
+}
+
+.eight {
+  background-color:#699;
+}
+
+.nine {
+  background-color:#c69;
+}
+
+.ten {
+  background-color: #396;
+}
+
+.eleven {
+  background-color:#669;
+}
+
+
+/* div{
+  width: 700px;
+  margin:0 auto; 
+  border: 4px solid white;
+  padding: 10px;
+} */

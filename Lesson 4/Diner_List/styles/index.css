@@ -1,0 +1,137 @@
+ .root {
+  min-height: 100vh;
+  background-color: #3b3f45;
+  color: white;
+}
+
+.dinner-header {
+  height: 80px;
+  background-color:#494e56;
+  padding-top: 4px;
+}
+
+.dinner-header p {
+  text-align: center;
+  color: #eb7e7f;
+}
+
+.dinner-header p:nth-child(1) {
+  font-size: 32px;
+}
+
+.dinner-header p:nth-child(2) {
+  font-size: 16px;
+}
+
+main {
+  min-height: calc(100vh - 80px);
+  padding-top: 50px;
+}
+
+main ul.list {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+main ul.list .list-item {
+ height: 50px;
+ transition: background-color 0.15s ease, border-color 0.15s ease;
+ cursor: pointer;
+}
+
+
+main ul.list .list-item:nth-child(2n + 1) {
+  background-color: #87839e;
+  border-top: 2px solid #87839e;
+  border-bottom: 2px solid #87839e;
+}
+
+
+main ul.list .list-item:nth-child(2n) {
+  background-color: #797593;
+  border-top: 2px solid #797593;
+  border-bottom: 2px solid #797593;
+}
+
+main ul.list .list-item:hover {
+  background-color: #615e76;
+  border-top-color: white;
+  border-bottom-color:white;
+}
+
+.list-item-label {
+  width: 100%;
+  height: calc(100% + 4px);
+  display: block;
+  margin: -2px 0;
+  padding: 0 16px;
+}
+
+
+.list-item-label input {
+  display: none;
+  line-height: 50px;
+}
+
+.list-item-label span {
+  line-height: 50px;
+  user-select: none;
+}
+
+.list-item-label span.line {
+  position: relative;
+  padding-left: 30px;
+}
+
+.list-item-label .line:after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid white;
+  background-color:#dedede;
+  cursor: pointer;
+}
+
+.list-item-label input:checked ~ .line:after {
+  /* background-color: black; */
+}
+
+.list-item-label input:checked ~ span {
+  text-decoration: line-through;
+}
+
+.list-item-label span {
+  line-height: 50px;
+}
+
+.list-item-label span:nth-child(2) {
+  
+}
+
+.list-submit {
+  display: block;
+  height: 60px;
+  background-color:#494e56;
+  border: none;
+  color: #eb7e7f;
+  font-size: 24px;
+  outline: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.list-submit:hover {
+  background-color:#eb7e7f;
+  color:#494e56; 
+}   
+
+.description{
+  color: #c3c3ca;
+  font-size: 12px;
+}
+
