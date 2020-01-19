@@ -1,0 +1,153 @@
+@import "./../constants/index.scss";
+@import "./../mixins.scss";
+
+.SecondPlaceTravel {
+    min-height: 680px;
+    width: 100%;
+    background-image: url("./../../build/assets/images/spain-1859434_1280.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+
+
+    &__container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: left;
+        flex-direction: row-reverse;
+        padding: 40px 16px;
+        justify-content: center;
+
+        @media screen and (max-width: $deviceSizeMD) {
+            justify-content: center;
+
+        }
+    }
+
+    &__title-block {
+        background-color: rgba(35, 35, 35, 0.9);
+        max-width: 540px;
+        min-height: 350px;
+        width: 100%;
+        padding: 50px 30px;
+    }
+
+    &__title {
+        color: #E8E8E8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.075em;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 26px;
+        text-transform: uppercase;
+    }
+
+    &__subtitle-text {
+        color: #E8E8E8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 28px;
+    }
+
+    &__btn {
+        max-width: 225px;
+        width: 100%;
+        height: 60px;
+        background-color: #5474FD;
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.075em;
+        justify-content: center;
+
+        @media screen and (max-width: $deviceSizeXXXS) {
+            max-width: 150px;
+            width: 100%;
+        }
+
+        &:hover {
+            background-color: #4965e0;
+            transition: transform .2s ease;
+        }
+    }
+
+    /*----------------Hidden-block------------------*/
+
+
+    &__title-block-hidden {
+        background-color: rgba(35, 35, 35, 0.9);
+        width: 540px;
+        height: 350px;
+        // width: 100%;
+        padding: 50px 30px;
+        visibility: hidden;
+
+        @media screen and (max-width: $deviceSizeMD) {
+            height: 0;
+            width: 0;
+            padding: 0;
+
+        }
+    }
+
+    &__title-hidden {
+        color: #E8E8E8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.075em;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle-hidden {
+        color: #FFFFFF;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 26px;
+        text-transform: uppercase;
+    }
+
+    &__subtitle-text-hidden {
+        color: #E8E8E8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 28px;
+    }
+
+    &__btn-hidden {
+        max-width: 225px;
+        width: 100%;
+        height: 60px;
+        background-color: #5474FD;
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.075em;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+}

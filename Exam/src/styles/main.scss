@@ -1,0 +1,23 @@
+// Initial styles
+
+@import "./../styles/fonts";
+@import "./../styles/animations";
+@import "./../styles/reboot";
+@import "./../styles/base";
+@import "./../styles/common";
+
+// Block
+
+@import "./../styles/blocks/button";
+
+
+// Sections
+
+@import "./sections/hero";
+@import "./sections/header";
+@import "./sections/about";
+@import "./sections/steps";
+@import "./sections/FirstPlaceTravel";
+@import "./sections/SecondPlaceTravel";
+@import "./sections/comments.scss";
+@import "./sections/footer.scss";

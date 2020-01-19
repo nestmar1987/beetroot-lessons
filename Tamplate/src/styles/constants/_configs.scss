@@ -1,0 +1,37 @@
+/**
+ * Application styles config
+ */
+
+// -------- UI elements parameters --------
+
+// -------- Devices sizes (for min width) --------
+
+// The Standard Bootstrap 4.x Breakpoints
+
+$deviceSizeLS: 1199px;
+$deviceSizeMD: 991px;
+$deviceSizeSM: 767px;
+$deviceSizeXS: 575px;
+
+// The Custom App Breakpoints
+
+$deviceSizeXMD: 1024px;
+$deviceSizeXXS: 460px;
+$deviceSizeXXXS: 375px;
+
+// -------- Fonts --------
+
+// Weight group
+
+$fontWeightThin: 100;
+$fontWeightLight: 300;
+$fontWeightBase: 400;
+$fontWeightMedium: 500;
+$fontWeightBold: 700;
+$fontWeightBlack: 900;
+
+// -------- Animation durations --------
+
+$animTimeDefault: 0.25s;
+$animTimeSlow: 0.3s;
+$animTimeFast: 0.2s;

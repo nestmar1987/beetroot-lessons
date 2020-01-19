@@ -1,0 +1,25 @@
+.section__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.img-cover {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* 
+.img-cover-two {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.img-cover-three {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+} */

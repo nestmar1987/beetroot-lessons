@@ -1,0 +1,64 @@
+@import "./../constants/index.scss";
+@import "./../mixins.scss";
+
+.footer {
+    min-height: 268px;
+    width: 100%;
+    background-color: #232323;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 40px 16px;
+        height: 100%;
+        padding-top: 120px;
+    }
+
+    &__title {
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 26px;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        color: white;
+        margin-bottom: 12px;
+    }
+
+    &__subtitle {
+        display: flex;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.1em;
+        color: white;
+        margin-bottom: 28px;
+    }
+
+    &__icons {
+        display: flex;
+        flex-direction: row;
+        color: #E8E8E8;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        cursor: pointer;
+
+        &>div {
+            margin-left: 25px;
+
+            &:hover {
+                color: #5474FD;
+            }
+
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}

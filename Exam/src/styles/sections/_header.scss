@@ -1,0 +1,103 @@
+@import "./../constants/index.scss";
+@import "./../mixins.scss";
+
+.header {
+    position: absolute;
+    top: calc(740px - 80px);
+    height: 80px;
+    width: 100%;
+    background-color: #5474FD;
+    color: $white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        display: flex;
+        max-width: 167px;
+        width: 100%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        align-items: center;
+        margin-top: 5px;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        color: $white;
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-transform: uppercase;
+        max-width: 150px;
+        align-items: center;
+        cursor: pointer;
+        min-height: 40px;
+        padding: 0 5px;
+        border-bottom: 1px solid transparent;
+        position: relative;
+
+
+        &:hover {
+            transition: transform .2s ease;
+            transform: scale(1.2);
+        }
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    @media screen and (max-width: $deviceSizeSM) {
+        display: none;
+    }
+}
+
+.hamburger-menu {
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    display: none;
+
+    p {
+        height: 2px;
+        margin-bottom: 6px;
+        background-color: $white;
+        width: 24px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &:hover {
+        background-color: rgba(51, 51, 51, 0.7);
+        transition: background-color .2s ease;
+    }
+
+    @media screen and (max-width: $deviceSizeSM) {
+        display: block;
+    }
+}

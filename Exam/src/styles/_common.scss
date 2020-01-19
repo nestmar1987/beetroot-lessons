@@ -1,0 +1,26 @@
+@import "./../../src/styles/constants/configs";
+
+
+.content-container {
+  width: 100%;
+  max-width: calc(1120px + 16px * 2);
+  margin: 0 auto;
+  padding: 0 16px;
+
+
+
+}
+
+// .img-contain {
+//   object-fit: contain;
+//   width: 100%;
+//   height: auto;
+//   display: block;
+// }
+
+// .img-cover {
+//   object-fit: contain;
+//   width: 100%;
+//   height: auto;
+//   display: block;
+// }

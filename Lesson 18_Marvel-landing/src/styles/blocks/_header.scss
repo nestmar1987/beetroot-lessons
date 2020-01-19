@@ -1,0 +1,10 @@
+@import "./../constants/index.scss";
+
+.header {
+  position: absolute;
+  top: calc(100vh - 80px);
+  height: 80px;
+  width: 100%;
+  background-color: $backgroundPrimary;
+  color: $white;
+}

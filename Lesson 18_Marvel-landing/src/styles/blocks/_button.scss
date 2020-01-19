@@ -1,0 +1,32 @@
+@import "./../constants/index.scss";
+
+.button {
+  height: 55px;
+  min-width: 180px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $black;
+  transition: color $animTimeFast ease, border-color $animTimeFast ease, background-color $animTimeFast ease;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+
+  &--transparent-grey {
+    border-color: $primaryDarkGrey;
+    background-color: transparent;
+    color: $primaryDarkGrey;
+
+    &:hover {
+      background-color: $primaryDarkGrey;
+      color: $primaryYellow;
+    }
+  }
+}

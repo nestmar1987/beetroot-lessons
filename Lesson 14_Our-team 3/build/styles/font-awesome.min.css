@@ -1,0 +1,38 @@
+/*!
+ * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
+ @font-face {
+    font-family: 'OpensansBold';
+    src: url('./../assets/fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('./../assets/fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RalewayMedium';
+    src: url('./../assets/fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('./../assets/fonts/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RalewayRegular';
+    src: url('./../assets/fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('./../assets/fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'RobotoBlack';
+    src: url('./../assets/fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('./../assets/fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  

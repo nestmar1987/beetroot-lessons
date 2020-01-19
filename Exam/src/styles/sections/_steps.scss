@@ -1,0 +1,147 @@
+@import "./../constants/index.scss";
+@import "./../mixins.scss";
+
+.steps {
+    min-height: 336px;
+    width: 100%;
+    background-color: #333333;
+    color: #E8E8E8;
+    display: flex;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        height: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        padding: 100px 16px;
+
+        @media screen and (max-width: $deviceSizeXS) {
+            padding: 50px 16px;
+        }
+    }
+
+    &__common-wrap {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+        @media screen and (max-width: $deviceSizeXS) {
+            flex-direction: column;
+        }
+    }
+
+    &__svg-wrap {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 60px;
+
+
+        @media screen and (max-width: $deviceSizeXS) {
+            visibility: hidden;
+            height: 0;
+
+        }
+    }
+
+    &__shape-svg {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        max-width: 770px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @media screen and (max-width: $deviceSizeXMD) {
+            max-width: 700px;
+        }
+
+        @media screen and (max-width: $deviceSizeMD) {
+            max-width: 600px;
+        }
+
+        @media screen and (max-width: $deviceSizeSM) {
+            max-width: 460px;
+        }
+
+        @media screen and (max-width: $deviceSizeXS) {
+            visibility: hidden;
+            height: 0;
+        }
+    }
+
+    &__steps-wrap {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+
+        @media screen and (max-width: $deviceSizeXS) {
+            flex-direction: column;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #333333;
+        z-index: 2;
+        cursor: pointer;
+        margin-left: 20px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        @media screen and (max-width: $deviceSizeXS) {
+            margin-left: 0;
+            margin-bottom: 25px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        &:hover {
+            svg {
+                path {
+                    fill: white;
+                    transition: fill .2s ease;
+                }
+            }
+        }
+    }
+
+    &__step-search {
+        margin-bottom: 12px;
+
+    }
+
+    &__step-select {
+        margin-bottom: 12px;
+    }
+
+    &__step-like {
+        margin-bottom: 12px;
+    }
+
+    &__text-block {
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 36px;
+
+        @media screen and (max-width: $deviceSizeSM) {
+            text-align: center;
+        }
+    }
+
+}

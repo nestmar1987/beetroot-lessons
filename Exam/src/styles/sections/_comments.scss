@@ -1,0 +1,124 @@
+@import "./../constants/index.scss";
+@import "./../mixins.scss";
+
+.comments {
+    min-height: 680px;
+    width: 100%;
+    background: linear-gradient(rgba(23, 23, 23, 0.9)), url("./../../build/assets/images/header\ img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__container {
+        padding: 100px 16px;
+
+        @media screen and (max-width: $deviceSizeMD) {
+            padding: 70px 16px;
+        }
+    }
+
+    &__title {
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 100px;
+        color: white;
+        text-align: center;
+
+        @media screen and (max-width: $deviceSizeMD) {
+            margin-bottom: 40px;
+        }
+
+        @media screen and (max-width: $deviceSizeXS) {
+            font-size: 30px;
+        }
+    }
+
+    &__common-wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        min-height: 284px;
+
+        @media screen and (max-width: $deviceSizeMD) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    &__image-wrap {
+        background-image: url(../../build/assets/images/13.png);
+        background-size: cover;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        min-height: 284px;
+        cursor: pointer;
+        border: 1px solid transparent;
+
+
+
+        @media screen and (max-width: $deviceSizeXS) {
+            max-width: 330px;
+            background-position: right;
+        }
+
+        &:hover {
+            border: 1px solid white;
+
+        }
+    }
+
+    &__title-block {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 620px;
+        min-height: 284px;
+        cursor: pointer;
+        justify-content: left;
+        background-color: #333333;
+        padding: 52px 46px 28px 60px;
+        border: 1px solid transparent;
+
+        &:hover {
+            border: 1px solid white;
+        }
+
+        @media screen and (max-width: $deviceSizeMD) {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        @media screen and (max-width: $deviceSizeXS) {
+            max-width: 330px;
+        }
+    }
+
+    &__title-block-title {
+        color: #FEFEFE;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 26px;
+        text-transform: uppercase;
+
+    }
+
+    &__title-block-subtitle {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        color: #E8E8E8;
+
+        i {
+            font-size: 36px;
+            font-weight: 400;
+            color: #5474FD;
+            transform: rotate(180deg);
+        }
+    }
+}

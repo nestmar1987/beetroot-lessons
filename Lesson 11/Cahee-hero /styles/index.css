@@ -1,0 +1,157 @@
+.hero-section {
+  background-image: url('./../images/photo_2019-12-11_20-18-48.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.hero-section__container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-section {
+  background-color: #00C4C4;
+  margin: 0;
+}
+
+.about-section__container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-items: center;
+  min-height: 700px;
+  max-width: 1170px;;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.hero-section__title-block {
+  max-width: 400px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.title--hero {
+  margin-bottom: 18px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.subtitle--hero {
+  margin-bottom: 30px;
+}
+
+.button {
+  height: 55px;
+  min-width: 200px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0 24px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.6);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.button--hero {
+  background-color: #FF6033;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  position: absolute;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  max-width: 100px;
+  overflow: hidden;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-item {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 24px;
+  padding: 6px 0;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.header__nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__nav-item:hover {
+  border-top: 2px solid #FF6033;
+}
+ 
+.image-wrapper{
+  display:flex;
+  min-height: 560px;
+  max-width: 566px;
+  cursor: pointer;
+  margin-right: 20px;
+  background-position: center;
+}
+
+.image-about{
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  
+}
+
+.about-section__title-block{
+  max-width: 500px;
+  min-height: 340px;
+  color: white;
+  padding-left: 20px;
+  margin-left: 20px;
+  cursor: text;
+}
+
+.title--about{
+  font-family: Railvay,sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.subtitle{
+  font-family: Railvay,sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-bottom: 10px;
+}
