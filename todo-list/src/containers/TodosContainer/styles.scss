@@ -1,0 +1,39 @@
+.todo-container {
+  &__header {
+    display: flex;
+    margin-bottom: 48px;
+
+    & > * {
+      &:nth-child(1) {
+        width: 100%;
+        margin-right: 24px;
+      }
+
+      &:nth-child(2) {
+        min-width: 200px;
+      }
+    }
+  }
+
+  &__login-form {
+    margin: 0 auto;
+    padding-top: 48px;
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & > * {
+      &:nth-child(1) {
+        margin-bottom: 24px;
+        width: 100%;
+      }
+
+      &:nth-child(2) {
+        width: 100%;
+      }
+    }
+  }
+}

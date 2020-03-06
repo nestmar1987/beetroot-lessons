@@ -1,0 +1,43 @@
+@import '../../../styles/constants/index.scss';
+@import '../../../styles/_mixins.scss';
+
+.button {
+  display: block;
+  padding: 0 24px;
+  appearance: none;
+  border-radius: $borderRadius;
+  width: min-content;
+  white-space: nowrap;
+  font-weight: $fontWeightBold;
+  text-transform: uppercase;
+
+  &--fluid-width {
+    width: 100%;
+  }
+
+  &--color-primary {
+    background-color: $royalBlue;
+    color: $white;
+  }
+
+  &--color-secondary {
+    background-color: $red;
+    color: $white;
+  }
+
+  &--size-xs {
+    height: 32px;
+  }
+
+  &--size-sm {
+    height: 40px;
+  }
+
+  &--size-md {
+    height: 48px;
+  }
+
+  &--size-lg {
+    height: 60px;
+  }
+}

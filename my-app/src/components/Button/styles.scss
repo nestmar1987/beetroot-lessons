@@ -1,0 +1,35 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.button {
+  width: 100%;
+  background-color: $royalBlue;
+  height: 60px;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  .font-icon {
+    margin-left: 8px;
+    font-size: 28px;
+  }
+
+  &--with-border {
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  &--border-blue {
+    border-color: $royalBlue;
+  }
+
+  &--border-white {
+    border-color: $white;
+  }
+
+  &--border-black {
+    border-color: $black;
+  }
+}

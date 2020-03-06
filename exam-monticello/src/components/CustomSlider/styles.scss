@@ -1,0 +1,74 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.slider {
+  width: 100%;
+}
+
+.font-icon-wraap {
+  width: 35px;
+  height: 35px;
+  // padding: 5px;
+  
+  &:before {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+}
+
+.font-icon {
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-size: 25px;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin:2px;
+   &:hover {
+     color: #16BCF6;
+     background-color: white;
+
+   }
+}
+
+.slick-dots li button {
+&::before {
+  display: none; 
+}
+}
+
+.slick-dots li {
+margin-left: 40px;
+margin-top: 60px;
+
+}
+
+.slick-dots {
+  bottom: -65px;
+}
+
+.slick-dots li button {
+  margin-top: 14px;
+  border: 1px solid rgb(255, 255, 255,);
+  border-radius: 70%;
+  width: 10px;
+  height: 10px;
+  
+  
+  &:focus {
+    background-color: white;
+    opacity: 1;
+  }
+}
+
+.slick-dots li button:hover{
+  background-color: white;
+  opacity: 0.7;
+}
+
+.slick-list {
+  margin-bottom: 140px;
+}
+
+

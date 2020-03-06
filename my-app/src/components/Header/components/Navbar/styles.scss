@@ -1,0 +1,16 @@
+@import '../../../../styles/constants/';
+@import '../../../../styles/_mixins.scss';
+
+.navbar {
+  display: flex;
+
+  @media screen and (max-width: $deviceSizeSM) {
+    display: none;
+  }
+
+  &__item {
+    color: $white;
+    margin-left: 32px;
+    text-transform: uppercase;
+  }
+}

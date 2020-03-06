@@ -1,0 +1,30 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.todo-item {
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__additional-info {
+    padding-left: 16px;
+    font-size: 14px;
+  }
+
+  &__block {
+    align-items: center;
+    display: flex;
+    height: 48px;
+    border: 1px solid $borderGrey;
+    border-radius: $borderRadius;
+    padding: 0 8px 0 16px;
+    justify-content: space-between;
+  }
+
+  &__name {
+    font-weight: $fontWeightBold;
+    text-transform: capitalize;
+  }
+}

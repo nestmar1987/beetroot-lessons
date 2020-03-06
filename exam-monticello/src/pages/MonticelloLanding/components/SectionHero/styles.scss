@@ -1,0 +1,17 @@
+@import '../../../../styles/constants/index.scss';
+@import '../../../../styles/_mixins.scss';
+
+.hero {
+  background-image: url('../../../../assets/images/monticello-hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__content {
+    min-height: 100vh;
+    padding: 110px 0 50px 0;
+
+    @media screen and (max-width: $deviceSizeXS) {
+      padding: 120px 0 50px 0;
+    }
+  }
+}
