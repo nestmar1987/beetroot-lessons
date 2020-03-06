@@ -1,0 +1,43 @@
+@import '../../styles/constants/index.scss';
+
+
+.hero {
+  
+  background-color: $white;
+ 
+  &__content {
+    min-height: 100vh;
+    padding: 0 0 50px 0;
+
+    @media screen and (max-width: $deviceSizeMD) {
+      padding: 20px 0 30px 0;
+    }
+  }
+
+  &__card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    
+  }
+
+  &__title-image {
+    background-image: url('../../assets/images/title-img.png');
+    height: 400px;
+    max-width: 1600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-items: center;
+    margin-top: 40px;
+
+    @media screen and (max-width: $deviceSizeMD) {
+      margin-top: 0px;
+    }
+    
+  }
+}
+

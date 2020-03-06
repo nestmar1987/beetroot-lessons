@@ -1,0 +1,121 @@
+@import '../../../../styles/constants/index.scss';
+@import '../../../../styles/_common.scss';
+
+.product-card {
+  width: 100%;
+  max-width: 200px;
+  min-width: 312px;
+  height: 400px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+
+  &__inner {
+    background-color: $white;
+    width: 100%;
+    height: 100%;
+    // position: relative;
+  }
+
+  &__image-first {
+    height: 300px;
+    background-image: url('./../../../../assets/images/Untitled\ 1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &:hover {
+      background-image: url('./../../../../assets/images/Untitled\ 1.1.png');
+      transition: all 0.2s ease;
+    }
+  }
+
+  &__image-second {
+    height: 300px;
+    background-image: url('./../../../../assets/images/Untitled\ 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &:hover {
+      background-image: url('./../../../../assets/images/Untitled2.2.png');
+      transition: background-image 0.2s ease;
+    }
+  }
+  &__image-third {
+    height: 300px;
+    background-image: url('./../../../../assets/images/Untitled\ 3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &:hover {
+      background-image: url('./../../../../assets/images/Untitled\ 3.3.png');
+      transition: background-image.2s ease;
+    }
+  }
+
+  &__image-fourth {
+    height: 300px;
+    background-image: url('./../../../../assets/images/Untitled\ 4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &:hover {
+      background-image: url('./../../../../assets/images/Untitled\ 4.4.png');
+      transition: all 0.2s ease;
+    }
+  }
+
+  &__image-fifth {
+    height: 300px;
+    background-image: url('./../../../../assets/images/Untitled\ 5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &:hover {
+      background-image: url('./../../../../assets/images/Untitled\ 5.5.png');
+      transition: all 0.2s ease;
+    }
+  }
+
+  &__image-sixth {
+    height: 300px;
+    background-image: url('./../../../../assets/images/Untitled\ 6.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &:hover {
+      background-image: url('./../../../../assets/images/Untitled\ 6.6.png');
+      transition: all 0.2s ease;
+    }
+  }
+
+  &__info {
+    padding: 10px;
+    min-height: 80px;
+  }
+
+  &__title {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $textPrimary;
+    padding-bottom: 10px;
+  }
+
+  &__price {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $textPrimary;
+  }
+}

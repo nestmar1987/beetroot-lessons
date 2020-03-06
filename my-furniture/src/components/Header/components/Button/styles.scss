@@ -1,0 +1,48 @@
+@import '../../../../styles/constants/index.scss';
+
+
+.button {
+  display: block;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 60px;
+  white-space: nowrap;
+  border: 1px solid $black;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 2px;
+  margin-right: 10px;
+  background-color: $white;
+  outline: none;
+
+  &:hover {
+    background-color: $red;
+    transition: background-color .2s ease ;
+  }
+
+
+  &--color-primary {
+    color: $black;
+  }
+
+  &--color-secondary {
+    background-color: $red;
+    color: $black;
+  }
+
+  &--size-xs {
+    height: 24px;
+  }
+
+  &--size-sm {
+    height: 30px;
+  }
+
+  &--size-md {
+    height: 48px;
+  }
+
+  &--size-lg {
+    height: 60px;
+  }
+}
