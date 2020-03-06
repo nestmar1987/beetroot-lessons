@@ -1,0 +1,35 @@
+@import '../../styles/constants/index.scss';
+@import '../../styles/_mixins.scss';
+
+.table {
+  &__head {
+    min-height: 60px;
+    display: flex;
+    background-color: #e2e2e2;
+    border: 1px solid #000000;
+  }
+
+  &__head-cell {
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    &--align-center {
+      justify-content: center;
+    }
+
+    &--align-right {
+      justify-content: right;
+    }
+  }
+
+  &__body-row {
+    display: flex;
+    min-height: 60px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e2e2e2;
+    }
+  }
+}
