@@ -8,12 +8,9 @@ import { card } from './components/ProductCard/data.js';
 import { Header } from '../../components/Header';
 import { ProductCard } from '../HomePage/components/ProductCard';
 import { Link } from 'react-router-dom';
-
-// Styles
+import { Footer } from '../../components/Footer';
 
 import './styles.scss';
-
-// ----------------
 
 export const HomePage = () => {
   return (
@@ -37,6 +34,7 @@ export const HomePage = () => {
               );
             })}
           </div>
+          <Footer />
         </div>
       </ContentContainer>
     </section>

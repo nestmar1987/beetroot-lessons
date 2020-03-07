@@ -50,7 +50,7 @@ export const Header = props => {
                 changeHandler={({ target: { value } }) =>
                   changeHandler('email', value)
                 }
-                placeholder="Email"
+                placeholder="email"
                 value={inputValues.email}
                 name="email"
                 type="email"
@@ -59,7 +59,7 @@ export const Header = props => {
                 changeHandler={({ target: { value } }) =>
                   changeHandler('password', value)
                 }
-                placeholder="Password"
+                placeholder="password"
                 value={inputValues.password}
                 name="password"
                 type="password"

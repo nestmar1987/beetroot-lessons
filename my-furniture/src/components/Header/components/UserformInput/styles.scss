@@ -1,11 +1,15 @@
-@import '../../../../styles/constants/index.scss';
+@import '../../../../styles/index.scss';
 
 .userform{
   border: 1px solid $black;
   height: 20px;
   padding: 0 16px;
-  width: 100px;
+  width: 120px;
   margin-right: 10px;
   border-radius: 4px;
-  padding-bottom: 2px;
+  font-size: 12px;
+
+  @media screen and (max-width: $deviceSizeXXS) {
+    width: 100px;
+  }
 }

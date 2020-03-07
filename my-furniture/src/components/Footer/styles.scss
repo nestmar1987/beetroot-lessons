@@ -1,0 +1,74 @@
+@import '../../styles/index.scss';
+
+.footer {
+  height: 300px;
+  width: 100%;
+  background-color: $backgroundFooter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  padding: 5px;
+  color: $black;
+
+  &__content {
+    max-width: 1470px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__text-wrap {
+    color: $black;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 20px;
+  
+  }
+
+  &__contacts {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    
+    & > div {
+      align-items: center;
+    }
+
+    & > div i {
+      color: $black;
+      font-size: 14px;
+      margin-right: 8px;
+      align-items: flex-end;
+      padding-top: 10px;
+    }
+
+    & > div span {
+      
+      margin-right: 8px;
+      padding-top: 10px;
+    }
+  }
+
+  &__contact-wrap {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__content-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $black;
+
+  }
+}
