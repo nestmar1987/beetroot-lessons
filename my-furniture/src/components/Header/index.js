@@ -71,9 +71,6 @@ export const Header = props => {
               <div>Best</div>
               <div>Furniture</div>
             </div>
-            {/* <div className="header__right-block">
-              
-            </div> */}
             <HamburgerButton
                 handleClick={handleToggleAside}
                 className="header__menu-btn-wrapper"
